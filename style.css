@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+table,th,td{
+    border: solid 1px;
+}
+header p{
+    text-align: center;
+}
+#nav{
+    display: flex;
+    float: right;
+    padding-inline: 20px;
+    margin: 10px;
+
+}
+
+body{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+main{
+display: flex;
+}
+fieldset{
+    
+}

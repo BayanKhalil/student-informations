@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>student-information</title>
+</head>
+
+<body>
+    <header>
+        <p>ASAC</p>
+        <div id="nav">
+
+            <a>Home</a>
+            <a>About</a>
+            <a>Contact</a>
+        </div>
+    </header>
+    <br>
+    <br>
+    <main>
+
+        <form action="" id='studentForm'>
+
+            <fieldset>
+                <label for="studentEmail"> Student Email</label>
+                <input type="text" name="studentEmail" id="studentEmail">
+
+                <label for="mobileNumber"> Student Mobile Number</label>
+                <input type="number" name="mobileNumber" id="mobileNumber">
+
+                <label for="tuition"> Tuition</label>
+                <input list="numbers" name="tuition" id="tuition">
+                <datalist id="numbers">
+                    <option value="100JD">
+                    <option value="500JD">
+                    <option value="1000JD">
+
+                </datalist>
+
+                <input type="submit" id="submit">
+
+
+            </fieldset>
+
+        </form>
+
+        <div id="table">
+        <div id="parent">
+        </div>
+        <div id="total">
+
+        </div>
+        </div>
+    </main>
+    <footer>
+
+
+
+        <script src="app.js"></script>
+    </footer>
+</body>
+
+</html>
